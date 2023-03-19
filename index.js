@@ -183,3 +183,9 @@ document.querySelector("#submit").addEventListener("click", () => {
   }, 1500);
   window.scrollTo(0, 0);
 });
+
+//Blog Button Onclick event (go to blog page)
+document.getElementById('blog-button').addEventListener('click',function(){
+  console.log('blog')
+  window.location.href = "./blog.html";
+})

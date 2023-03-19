@@ -1,0 +1,11 @@
+
+.accordion-button::after {
+    
+    background-image: url('images/plus-solid.svg');
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url('images/minus-solid.svg');
+}
