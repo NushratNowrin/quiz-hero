@@ -19,12 +19,14 @@
             <div class="accordion-item border-0 mb-4 rounded-3">
               <h2 class="accordion-header " id="headingOne">
                 <button class="accordion-button text-dark fw-bold fs-4 p-4 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background: #F3F3F3">
-                  1. What's the difference among forEach(), map()and filter()?
+                  1. What's the difference among map(), forEach() and filter()?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body" style="background: #F3F3F3">
-                 <p></p>
+                 <p>1. map() return a new array with the sequence of parent array. map() creates new array from calling a function for every array element.</p>
+                  <p>2. forEach is almost similar to map(). But like map() forEach don't return any value</p>
+                  <p>3. filter() just put the value which satisfy the condition, and create new array</p>
                 </div>
               </div>
             </div>
@@ -36,7 +38,9 @@
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body" style="background: #F3F3F3">
-                    <p></p>
+                    <p><b>Local Storage:</b> This read-only interface property provides access to the Document's local storage object, the stored data is stored across browser sessions. Similar to sessionStorage, except that sessionStorage data gets cleared when the page session ends  that is when the page is closed. It is cleared when the last “private” tab of a browser is closed (localStorage data for a document loaded in a private browsing or incognito session).</p>
+                    <p><b>Session storage:</b> Session Storage objects can be accessed using the sessionStorage read-only property. The difference between sessionStorage and localStorage is that localStorage data does not expire, whereas sessionStorage data is cleared when the page session ends.</p>
+                    <p><b>Cookie:</b> The term “cookie” refers to just the textual information about a website. In order to recognize you and show you results according to your preferences, this website saves some information in your local system when you visit a particular website. The history of the internet has long been marked by the use of cookies.</p>
                 </div>
               </div>
             </div>
@@ -48,31 +52,35 @@
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body" style="background: #F3F3F3">
-                    
+                    <p>It means that the main thread where JavaScript code is run, runs in one line at a time manner and there is no possibility of running code in parallel.
+                    </p>
+                    <p>The event loop is one of those forbidden topics that nobody wants to talk about due to the complexity of some of its core concepts. But in fact, it’s one of the most important concepts in order to understand how JavaScript works under the hood, today we’ll shine a light in the midst of night, to fend off evil wherever it may lurk, grasping how the web’s language manages its tasks.
+
+                    </p>
                 </div>
               </div>
             </div>
             <div class="accordion-item border-0 mb-4 rounded-3">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed text-dark fw-bold fs-4 p-4 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background: #F3F3F3">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed text-dark fw-bold fs-4 p-4 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="background: #F3F3F3">
                   4. Write about quizTimer function().
                 </button>
               </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div class="accordion-body" style="background: #F3F3F3">
-                    
+                  This function sets up a timer that will update the inner HTML of an element with an id of "count" every second. The timer counts up from zero and displays the elapsed time in minutes and seconds.
                 </div>
               </div>
             </div>
             <div class="accordion-item border-0 mb-4 rounded-3">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed text-dark fw-bold fs-4 p-4 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background: #F3F3F3">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed text-dark fw-bold fs-4 p-4 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" style="background: #F3F3F3">
                   5. Write about chooseQuiz function()
                 </button>
               </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                 <div class="accordion-body" style="background: #F3F3F3">
-                    
+                  This function is used to record the answer given by a user for a specific quiz question. The function takes two parameters: "index" and "givenAns". The "index" parameter represents the index of the quiz question being answered, while "givenAns" represents the answer that the user has selected.
                 </div>
               </div>
             </div>
